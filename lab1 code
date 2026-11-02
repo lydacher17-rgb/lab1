@@ -1,0 +1,8 @@
+CREATE TABLE Orders1 (
+    Order_number       integer PRIMARY KEY,
+    Customer_code      integer NOT NULL,
+    Order_date         date NOT NULL,
+    Assembly_time      integer,
+    Additional_infor   text,
+    Delivery_address   text
+);
